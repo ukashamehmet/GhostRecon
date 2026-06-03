@@ -36,7 +36,7 @@ python src/GhostRecon.py -d example.com -t 20 --timeout 20 --delay-min 1.0 --del
 ## Usage
 
 ```
-usage: recon_toolkit.py [-h] -d DOMAIN [-u URL] [-t THREADS] [--timeout TIMEOUT]
+usage: GhostRecon.py [-h] -d DOMAIN [-u URL] [-t THREADS] [--timeout TIMEOUT]
                         [--delay-min DELAY_MIN] [--delay-max DELAY_MAX]
 
 Black-Box Reconnaissance Toolkit
@@ -100,9 +100,9 @@ The toolkit includes a curated subdomain wordlist in `wordlists/subdomains.txt`.
 The modular class-based design makes it easy to add new reconnaissance modules:
 
 ```python
-from src.recon_toolkit import ReconToolkit
+from src.GhostRecon import ReconToolkit
 
-toolkit = ReconToolkit(target_domain="example.com")
+toolkit = GhostRecon(target_domain="example.com")
 toolkit.dns_resolution()
 toolkit.subdomain_enum()
 # Add your custom module here
