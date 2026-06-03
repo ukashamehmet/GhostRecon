@@ -1,0 +1,32 @@
+# Recon output (contains sensitive target data)
+recon_output/
+recon_output_enhanced/
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Authorization documents (NEVER commit these)
+*AUTHORIZATION*
+*authorization*
+*.docx
+*.pdf
