@@ -18,8 +18,8 @@ A comprehensive Phase 1 reconnaissance automation framework for authorized penet
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/BlackBox-Recon-Toolkit.git
-cd BlackBox-Recon-Toolkit
+git clone https://github.com/ukashamehmet/GhostRecon.git
+cd GhostRecon.git
 pip install -r requirements.txt
 ```
 
@@ -27,10 +27,10 @@ pip install -r requirements.txt
 
 ```bash
 # Full reconnaissance
-python src/recon_toolkit.py -d example.com
+python src/GhostRecon.py -d example.com
 
 # With custom options
-python src/recon_toolkit.py -d example.com -t 20 --timeout 20 --delay-min 1.0 --delay-max 3.0
+python src/GhostRecon.py -d example.com -t 20 --timeout 20 --delay-min 1.0 --delay-max 3.0
 ```
 
 ## Usage
